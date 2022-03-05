@@ -1,0 +1,17 @@
+Items:
+  test_item:
+    material: playerSkull:ItsComits
+    displayName: '&cTESTING'
+    lore:
+      - 'Line 1'
+    effects: 'SPEED:1:60 INCREASE_DAMAGE:1:10'
+    actions: 'PHYSICAL'
+    remove: true
+  golden_head:
+    material: GOLDEN_APPLE:0
+    displayName: '&6Golden Head'
+    lore:
+      - 'Line 2'
+    effects: 'SPEED:1:60 INCREASE_DAMAGE:1:10'
+    actions: 'PHYSICAL'
+    remove: true

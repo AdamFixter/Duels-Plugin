@@ -1,0 +1,9 @@
+# Exteria ArenaPvP (Arenas.yml) # If you have any problems make sure to ask ItsComits.
+Arenas:
+  UHC_SOLO: {}
+  UHC_DOUBLES: {}
+  OP_SOLO: {}
+  OP_DOUBLES: {}
+  BOW_SOLO: {}
+  CLASSIC_SOLO: {}
+  NO_DEBUFF_SOLO: {}

@@ -1,0 +1,24 @@
+Categorys:
+  spawnPoints:
+    - ''
+    - ''
+  UHC:
+    resetMap: true
+    Maps:
+      - 'mapName:file:percentage'
+  OP:
+    resetMap: true
+    Maps:
+      - 'mapName:file:percentage'
+  BOW:
+    resetMap: true
+    Maps:
+      - 'mapName:file:percentage'
+  CLASSIC:
+    resetMap: true
+    Maps:
+      - 'mapName:file:percentage'
+  NO_DEBUFF:
+    resetMap: true
+    Maps:
+      - 'mapName:file:percentage'

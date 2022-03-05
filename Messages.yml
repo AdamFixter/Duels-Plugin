@@ -1,0 +1,158 @@
+NPC:
+  Lines:
+  - '&2%Custom-0%'
+  - '&f&l%Custom-1% Playing'
+  - '&a&lCLICK TO PLAY'
+Command:
+  No-Permission:
+  - Unkown command. Type '/help' for help.
+  Not-A-Player:
+  - You need to be a player to execute this command.
+  Too-Many-Args:
+  - '&cToo many arguments. do /arena for more info.'
+  Not-Enough-Args:
+  - '&cNot enough arguments. do /arena for more info.'
+  Help:
+  - '&8&m----------------------------------------------------'
+  - ''
+  - '&lArenaPvP Help Page'
+  - ''
+  - '&a/Duels'
+  - '  &aArena'
+  - '    &acreate &7{ArenaType} {MapName} &8- &2To create an arena.'
+  - '    &aremove &7{ID} &8- &2To remove an arena.'
+  - '    &asetspawn &7{ID} {TeamID} &8- &2To set a spawn for an arena'
+  - '    &aleave &8- &2To leave an arena.'
+  - '    &ajoin &7{ArenaType} &8- &2To join an arena.'
+  - '    &alist &8- &2List all the arenas.'
+  - '&aNPC'
+  - '    &acreate &7{Mode} &8- &2To create a npc per mode.'
+  - '    &aremove &7{ID} &8- &2To remove an npc with that id'
+  - '    &alist &8- &2List all the npcs.'
+  - ''
+  - '&8&m----------------------------------------------------'
+  List:
+  - '&e&m----------------------------------------------------'
+  - ''
+  - '&lArena List'
+  - ''
+  - '&2Modes: &fSolo UHC, Doubles UHC'
+  - ''
+  - 'Arenas: '
+  - '&e&m----------------------------------------------------'
+Arena:
+  In-Game:
+  - '&cYou are already in a game.'
+  NotIn-Game:
+  - '&cYou are currently not in a game.'
+  Create:
+  - '&aCreated an arena with id of &2%Arena-1%'
+  Remove:
+  - '&aRemoved a &2%Custom-0%%a arena with id of &2%Arena-1%'
+  Spawn-Limit:
+  - '&cYou cannot set more than %Variable% spawn points'
+  Set-Spawn:
+  - '&aSet Spawn for arena &2%Arena-1%'
+  ID-Invalid:
+  - '&aArena ID is invalid.'
+  Team-Invalid:
+  - '&aThe team ID is invalid'
+  Player:
+    Joined:
+    - '&7%Custom-0% &ajoined the game (&b%Arena-9%&2/&b%Arena-2%&2)!'
+    Forefeited:
+    - '&7%Custom-0%&a forfeited the duel!'
+    Left:
+    - '&7%Custom-0%&a has quit!!'
+    Bow-Shot:
+    - '%Custom-0%&7 is on &c%Custom-1% &7HP!'
+    Died:
+    - '%Custom-0%&a was killed by %Custom-1%'
+    LOBBY:
+      Title:
+      - '&a&lExteriaPvP'
+      Lines:
+      - ''
+      - '&fOnline: &2%Online-Players%'
+      - '&fIn Fights &2%In-Fight%'
+      - ''
+      - '&aExteriaPvP.com'
+    WAITING:
+      Title:
+      - '&a&lExteriaPvP'
+      Lines:
+      - ''
+      - 'Players: &e%Arena-9%&f/&e%Arena-2%'
+      - ''
+      - Waiting...
+      - ''
+      - '&aExteriaPvP.com'
+    COUNTDOWN:
+      Title:
+      - '&a&lExteriaPvP'
+      Lines:
+      - ''
+      - 'Players: &e%Arena-9%&f/&e%Arena-2%'
+      - ''
+      - Starting in &e%Arena-0%s
+      - ''
+      - '&2ExteriaPvP.com'
+    STARTED:
+      Title:
+      - '&a&lExteriaPvP'
+      Lines:
+      - ''
+      - 'Time left: &e%Arena-4%'
+      - 'Players: &e%Arena-9%&f/&e%Arena-2%'
+      - ''
+      - ''
+      - '&aExteriaPvP.com'
+  Countdown:
+    Chat:
+    - '&aThe Game starts in&6 10 &aseconds!'
+    - '&aThe Game starts in&c 5 &aseconds!'
+    - '&aThe Game starts in&c 4 &aseconds!'
+    - '&aThe Game starts in&c 3 &aseconds!'
+    - '&aThe Game starts in&c 2 &aseconds!'
+    - '&aThe Game starts in&c 1 &asecond!'
+    Title:
+    - '&c5'
+    - '&c4'
+    - '&c3'
+    - '&c2'
+    - '&c1'
+  Start:
+  - '&e&m---------------------------------'
+  - '           &lUHC Duel'
+  - ' '
+  - '     &a&lEliminate your opponent!'
+  - ' '
+  - '      &lOpponent: %Arena-10%'
+  - ' '
+  - '&e&m---------------------------------'
+  End:
+  - '&e&m---------------------------------'
+  - '        UHC Duel - %Time-Took%'
+  - ' '
+  - '%Custom-0%     %Custom-5%'
+  - '%Custom-1% - Damage Dealt - %Custom-6%'
+  - '        %Custon-2% - Melee Accuracy - %Custom-7%'
+  - '         %Custom-3% - Bow Accuracy - %Custom-8%'
+  - '      %Custom-3% - Health Regeneration - %Custom-9%'
+  - ' '
+  - '    %Custom-4% - %opponent%''s Health'
+  - ' '
+  - '&e&m---------------------------------'
+  Winner-Title:
+  - '&6&lVictory'
+  - '%Custom-0%%Custom-1% &awon the duel!'
+  Loser-Title:
+  - '&c&lLoser'
+  - '%Custom-0%%Custom-1% &awon the duel!'
+  Draw-Title:
+  - '&2&lDRAW'
+  Cancelled-Title:
+  - '&cCANCELLED'
+  GameOver-Title:
+  - '&c&lGAMEOVER'
+  - Thanks for playing

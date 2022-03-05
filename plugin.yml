@@ -1,0 +1,7 @@
+main: me.itscomits.ArenaPvP
+name: Duels
+version: 1.0.0
+description: An intense duel plugin
+commands:
+    duels:
+        description: Main duels command
